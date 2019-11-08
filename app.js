@@ -39,12 +39,12 @@ app.get('/user/:id', (req, res) => {
 
 app.get("/", (req, res) => {
   console.log("Responding to root route")
-  res.send("Hello from ROOOOOT")
+  res.send("This is an example root route")
 })
 
 app.get("/users", (req, res) => {
-  var user1 = {firstName: "Stephen", lastName: "Curry"}
-  const user2 = {firstName: "Kevin", lastName: "Durant"}
+  var user1 = {firstName: "John", lastName: "Smith"}
+  const user2 = {firstName: "Steve", lastName: "Johnson"}
   res.json([user1, user2])
 })
 
