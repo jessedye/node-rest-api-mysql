@@ -48,7 +48,7 @@ app.get("/users", (req, res) => {
   res.json([user1, user2])
 })
 
-// localhost:3003
-app.listen(3003, () => {
+// localhost:8080
+app.listen(8080, () => {
   console.log("Server is up and listening on 3003...")
 })
