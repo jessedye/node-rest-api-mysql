@@ -50,5 +50,5 @@ app.get("/users", (req, res) => {
 
 // localhost:8080
 app.listen(8080, () => {
-  console.log("Server is up and listening on 3003...")
+  console.log("Server is up and listening on 8080...")
 })
