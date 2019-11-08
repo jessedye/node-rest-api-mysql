@@ -3,4 +3,13 @@ CREATE TABLE IF NOT EXISTS `users` (
   `first_name` varchar(30) NOT NULL,
   `last_name` varchar(60) NOT NULL,
   PRIMARY KEY (`id`),
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+);
+
+INSERT INTO `users` (`id`, `firstname`, `last_name`) VALUES
+	(1, 'Hulk', 'Hogan');
+INSERT INTO `users` (`id`, `firstname`, `last_name`) VALUES
+	(1, 'Randy', 'Savage');
+INSERT INTO `users` (`id`, `firstname`, `last_name`) VALUES
+	(1, 'Ric', 'Flair');
+INSERT INTO `users` (`id`, `firstname`, `last_name`) VALUES
+	(1, 'Stone Cold Steve', 'Austin');
